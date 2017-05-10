@@ -1,22 +1,69 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    	<title></title>
-        <meta charset="utf-8">
-        <html lang="en">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/style.css">
-        <script src="js/bootstrap.js"></script>     
-    </head>
-    <body>
-        <div class="container">
-            <div class="row">
-                <header>
-                    <div class="col-md-1">logo</div>
-                    <div class="col-md-5 col-md-offset-6">name</div>
-                </header>
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="row">
+            <div class="col-md-1">logo</div>
+            <div class="col-md-5 col-md-offset-6">name</div>
+        </header>
+        <section class="front-page-image row">
+            <div class="col-md-12">
+                <picture>
+                    <source media="(min-width: 900px)" srcset="img/javascript-main-image_lg.jpg">
+                    <source media="(min-width: 600px)" srcset="img/javascript-main-image_md.jpg">
+                    <source media="(min-width: 300px)" srcset="img/javascript-main-image_sm.jpg">
+                    <img src="img/javascript-main-image_sm.jpg">
+                </picture>
             </div>
-        </container>
-    </body>
+        </section>
+        <section class="features row">
+            <h2 class="col-md-12">
+                Featured Work
+            </h2>
+        </section>
+        <article class="row">
+            <div class="col-md-4 col-sm-4">
+                <picture>
+                    <source media="(min-width: 900px)" sizes="33vw" srcset="img/freenas-600w.jpg 600w,
+                    img/freenas-800w.jpg 800w,
+                    img/freenas-1200w.jpg 1200w">
+                    <source media="(min-width: 600px)" srcset="img/freenas_md.jpg">
+                    <source media="(min-width: 300px)" srcset="img/freenas_sm.jpg">
+                    <img src="img/freenas_sm.jpg">
+                </picture>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <picture>
+                    <source media="(min-width: 900px)" sizes="33vw" srcset="img/linux-mint-600w.jpg 600w,
+                    img/linux-mint-800w.jpg 800w,
+                    img/linux-mint-1200w.jpg 1200w">
+                    <source media="(min-width: 600px)" srcset="img/linux-mint_md.jpg">
+                    <source media="(min-width: 300px)" srcset="img/linux-mint_sm.jpg">
+                    <img src="img/linux-mint_sm.jpg">
+                </picture>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <picture>
+                    <source media="(min-width: 900px)" srcset="img/javascript-main-image_lg.jpg">
+                    <source media="(min-width: 600px)" srcset="img/javascript-main-image_md.jpg">
+                    <source media="(min-width: 300px)" srcset="img/javascript-main-image_sm.jpg">
+                    <img src="img/javascript-main-image_sm.jpg">
+                </picture>
+            </div>
+        </article>
+    </div>
+
+</body>
+
 </html>
