@@ -8,22 +8,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <style> @import url(http://weloveiconfonts.com/api/?family=iconicstroke);</style>
     <script src="js/bootstrap.js"></script>
 </head>
 
 <body>
     <div class="container">
         <header class="row">
-            <div class="col-md-1">logo</div>
-            <div class="col-md-5 col-md-offset-6">name</div>
+            <div class="col-md-1">
+                <span class="iconicstroke-rss-alt"></span>
+            </div>
+            <div class="col-md-5 col-md-offset-6">
+                <h1>Jane Doette</h1>
+                <p>Front End Ninja</p>
+            </div>
         </header>
+        <hr>
         <section class="front-page-image row">
             <div class="col-md-12">
                 <picture>
-                    <source media="(min-width: 1200px)" srcset="img/javascript-main-image-lg.jpg">
+                    <source media="(min-width: 1200px)" srcset="img/javascript-main-image-lg.webp" type="image/webp">
+                    <source media="(min-width: 992px)" srcset="img/javascript-main-image-md.webp" type="image/webp">
+                    <source srcset="img/javascript-main-image-sm.webp" type="image/webp">
+                    <source srcset="img/javascript-main-image-lg.jpg">
                     <source media="(min-width: 992px)" srcset="img/javascript-main-image-md.jpg">
                     <source media="(min-width: 768px)" srcset="img/javascript-main-image-sm.jpg">
-                    <img src="img/javascript-main-image-sm.jpg">
+                    <img src="img/javascript-main-image-sm.jpg" alt="Picture of a piece of JavaScript code">
                 </picture>
             </div>
         </section>
@@ -36,9 +46,12 @@
             <div class="col-md-4 col-sm-4">
                 <figure>
                     <picture>
+                        <source media="(min-width: 1200px)" sizes="33vw" srcset="img/truenas-sm-600w.webp 600w, img/truenas-800w.webp 800w, img/truenas-md-1200w.webp 1200w" type="image/webp">
+                        <source media="(min-width: 992px)" srcset="img/truenas-800w.webp" type="image/webp">
+                        <source srcset="img/truenas-sm-600w.webp" type="image/webp">
                         <source media="(min-width: 1200px)" sizes="33vw" srcset="img/truenas-sm-600w.jpg 600w, img/truenas-800w.jpg 800w, img/truenas-md-1200w.jpg 1200w">
                         <source media="(min-width: 992px)" srcset="img/truenas-800w.jpg">
-                        <source media="(min-width: 768px)" srcset="img/truenas-sm-600w.jpg">
+                        <source srcset="img/truenas-sm-600w.jpg">
                         <img src="img/truenas-sm-600w.jpg">
                         <figcaption>
                             <h4>FreeNAS</h4>
@@ -50,6 +63,9 @@
             <div class="col-md-4 col-sm-4">
                 <figure>
                     <picture>
+                        <source media="(min-width: 1200px)" sizes="33vw" srcset="img/linux-mint-sm-600w.webp 600w, img/linux-mint-800w.webp 800w, img/linux-mint-md-1200w.webp 1200w" type="image/webp">
+                        <source media="(min-width: 992px)" srcset="img/linux-mint-800w.webp" type="image/webp">
+                        <source media="(min-width: 768px)" srcset="img/linux-mint-sm-600w.webp" type="image/webp">
                         <source media="(min-width: 1200px)" sizes="33vw" srcset="img/linux-mint-sm-600w.jpg 600w, img/linux-mint-800w.jpg 800w, img/linux-mint-md-1200w.jpg 1200w">
                         <source media="(min-width: 992px)" srcset="img/linux-mint-800w.jpg">
                         <source media="(min-width: 768px)" srcset="img/linux-mint-sm-600w.jpg">
@@ -64,6 +80,9 @@
             <div class="col-md-4 col-sm-4">
                 <figure>
                     <picture>
+                        <source media="(min-width: 1200px)" sizes="33vw" srcset="img/microsoft-windows-10-sm-600w.webp 600w, img/microsoft-windows-10-800w.webp 800w, img/microsoft-windows-10-md-1200w.webp 1200w" type="image/webp">
+                        <source media="(min-width: 992px)" srcset="img/microsoft-windows-10-800w.webp" type="image/webp">
+                        <source media="(min-width: 768px)" srcset="img/microsoft-windows-10-sm-600w.webp" type="image/webp">
                         <source media="(min-width: 1200px)" sizes="33vw" srcset="img/microsoft-windows-10-sm-600w.jpg 600w, img/microsoft-windows-10-800w.jpg 800w, img/microsoft-windows-10-md-1200w.jpg 1200w">
                         <source media="(min-width: 992px)" srcset="img/microsoft-windows-10-800w.jpg">
                         <source media="(min-width: 768px)" srcset="img/microsoft-windows-10-sm-600w.jpg">

@@ -2,3 +2,15 @@ img {
     max-width: 100%;
     width: 100%;
 }
+
+[class*="iconicstroke-"]:before {
+  font-family: 'IconicStroke', sans-serif;
+  font-size: 5em;
+  color:#02b3e4;
+}
+
+hr {
+    height: 2px;
+    color: black;
+    background-color: black;
+}
