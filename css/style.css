@@ -1,3 +1,25 @@
+
+@import url(http://weloveiconfonts.com/api/?family=iconicstroke);
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header.row {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: 200;
+    font-size: 3.5em;
+    letter-spacing: 3px;
+}
+
+header p {
+    font-size: 2em;
+}
+
 img {
     max-width: 100%;
     width: 100%;
@@ -7,10 +29,21 @@ img {
   font-family: 'IconicStroke', sans-serif;
   font-size: 5em;
   color:#02b3e4;
+  text-shadow: 5px 5px 15px rgba(0,0,0,0.45);
 }
 
 hr {
     height: 2px;
-    color: black;
-    background-color: black;
+    color: #000;
+    background-color: #000;
+    margin: 0 0 20px 0;
+}
+
+figure img:hover {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.45);
+    opacity: 0.85;
+}
+
+figure img {
+    transition: 0.15s;
 }
